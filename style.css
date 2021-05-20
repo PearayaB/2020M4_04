@@ -6,3 +6,32 @@ body .container{
 .nav-link{
     margin: 0px 30px;
 }
+.float-left{
+    width: 250px;
+    height: 150px;    
+}
+
+.list-group-item{
+    size: auto;
+}
+
+.card-img-top{
+    width: 450px;
+    height: 500px;
+    padding: 10px;
+}
+
+.pagination{
+    padding: 50px;
+}
+
+footer{
+    text-align: center;
+}
+
+.col-auto{
+    padding: 20px;
+}
+.card{
+    display: inline;
+}
