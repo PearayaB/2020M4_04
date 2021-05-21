@@ -35,3 +35,11 @@ footer{
 .card{
     display: inline;
 }
+.card .col-sm-2{
+    border: none;
+}
+@media screen and (max-width:786px) {
+    .card{
+        border: none;
+    }
+}
