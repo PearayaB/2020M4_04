@@ -28,18 +28,41 @@ body .container{
 footer{
     text-align: center;
 }
+.row{
+    display: flex;
+}
 
 .col-auto{
     padding: 20px;
 }
-.card{
+/*.card{
     display: inline;
-}
+}*/
+.card-item {
+    margin: 20px 0 0 0;
+    border: 1px solid whitesmoke;
+  }
 .card .col-sm-2{
     border: none;
 }
-@media screen and (max-width:786px) {
-    .card{
+@media screen and (max-width:500px) {
+    div.card{
         border: none;
+    }
+    .col-9{
+        width: 25%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    div.card{
+        border: none;
+    }
+    .col-9{
+        width: 55%;
+    }
+}
+@media screen and (min-width:992px) {
+    .col-9{
+        width: 75%;
     }
 }
